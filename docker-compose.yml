@@ -1,0 +1,28 @@
+version: "3.8"
+
+services:
+  mc-vanilla:
+    image: itzg/minecraft-server:latest
+    container_name: mc-vanilla
+    restart: unless-stopped
+
+    ports:
+      - "25565:25565"
+
+    environment:
+      EULA: "TRUE"
+      TYPE: "VANILLA"
+      VERSION: "LATEST"
+      ONLINE_MODE: "TRUE"
+      ENABLE_WHITELIST: "TRUE"
+      WHITELIST: "squeekienuts,toepat"
+      MEMORY: "8G"
+      MAX_PLAYERS: "10"
+      DIFFICULTY: "normal"
+      MOTD: "Todd's Debian Vanilla Server"
+      VIEW_DISTANCE: "10"
+    volumes:
+      - ./data:/data
+
+    tty: true
+    stdin_open: true
