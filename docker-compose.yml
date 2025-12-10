@@ -15,7 +15,7 @@ services:
       VERSION: "LATEST"
       ONLINE_MODE: "TRUE"
       ENABLE_WHITELIST: "TRUE"
-      WHITELIST: "squeekienuts,toepat,radio_future,whit0816,clebmane,truchainz"
+      WHITELIST: "squeekienuts,toepat,radio_future,whit0816,clebmane,truchainz,86tofu"
       MEMORY: "8G"
       MAX_PLAYERS: "10"
       DIFFICULTY: "normal"
