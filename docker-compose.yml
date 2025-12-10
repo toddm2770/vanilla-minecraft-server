@@ -15,11 +15,11 @@ services:
       VERSION: "LATEST"
       ONLINE_MODE: "TRUE"
       ENABLE_WHITELIST: "TRUE"
-      WHITELIST: "squeekienuts,toepat"
+      WHITELIST: "squeekienuts,toepat,radio_future,whit0816,clebmane,truchainz"
       MEMORY: "8G"
       MAX_PLAYERS: "10"
       DIFFICULTY: "normal"
-      MOTD: "Todd's Debian Vanilla Server"
+      MOTD: "Lick a butt, fuckerrrr"
       VIEW_DISTANCE: "10"
     volumes:
       - ./data:/data
